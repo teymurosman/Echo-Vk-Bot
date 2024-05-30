@@ -1,0 +1,16 @@
+# Используем базовый образ с Alpine Linux
+FROM alpine:latest
+
+# Устанавливаем необходимые зависимости
+RUN apk add --no-cache curl
+
+# Загружаем и устанавливаем ngrok
+RUN curl -sL https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o ngrok.zip && \
+    unzip ngrok.zip -d /usr/local/bin && \
+    rm -f ngrok.zip
+
+# Указываем, что ngrok будет принимать команды при запуске
+ENTRYPOINT ["ngrok"]
+
+# Открываем порт для ngrok web interface
+EXPOSE 4040
