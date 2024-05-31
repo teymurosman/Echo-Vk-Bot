@@ -1,5 +1,7 @@
 # VK Echo Bot
 
+[![Application Status](https://img.shields.io/badge/status-active-brightgreen)](http://your-application-url.com)
+
 Проект представляет из себя бота для сообщества VK, который отвечает тем, что ему прислал пользователь.
 Реализовано в рамках тестового задания для компании Just AI
 
