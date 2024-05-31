@@ -3,6 +3,8 @@
 Проект представляет из себя бота для сообщества VK, который отвечает тем, что ему прислал пользователь.
 Реализовано в рамках тестового задания для компании Just AI
 
+Протестировать работу бота можно написав сообщение в [**моё сообщество VK**](https://vk.com/club226068085)
+
 ![Пример работы](src/main/resources/static/images/vkbot-example.png)
 
 [**Ознакомиться с заданием**](https://docs.google.com/document/d/1x_EEtb1AbU83dlJHVnI4GYkoSnGmXYmzqoM6q_BceF0/edit)
